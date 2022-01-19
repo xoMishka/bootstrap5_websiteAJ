@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 
+        WEB 2890 Bootstrap 5 & Sass Tutorial
+        By: Amber Jeffers
+        Date: January 17, 2022
+    -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Bootstrap 5 and SASS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chivo:wght@700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/57df9c758a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="images/logo.png" alt="logo image">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <button type="button" class="rounded-pill btn-rounded">+1 728365413
+                <span><i class="fas fa-phone"></i></span>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <section id="home" class="intro-section">
+          <div class="container">
+              <div class="row align-items-center text-white">
+                  <div class="col-md-6">
+                      <h1 class="display-3">
+                          Welcome to the WebDev Group
+                      </h1>
+                      <h4>
+                          We are a team of UX designers and developers ready to handle all of your web 
+                          development needs. We deliver digital products with superior user experiences 
+                          that are guaranteed to result in customer conversions and more revenue for your business.
+                      </h4>
+                      <button type="button" class="rounded-pill btn-rounded mt-4">Get In Touch
+                        <span><i class="fas fa-arrow-right"></i></span>
+                      </button>
+                  </div>
+                  <div class="col-md-6 text-end">
+                      <div class="video-box">
+                          <img src="images/coding.png" alt="coding illustration" class="img-fluid">
+                          <a href="#">
+                              <span>
+                                <i class="fas fa-play-circle"></i>  
+                              </span>
+                              <span class="border-animation border-animation--border-1"></span>
+                              <span class="border-animation border-animation--border-2"></span>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L26.7,106.7C53.3,117,107,139,160,154.7C213.3,171,267,181,320,165.3C373.3,149,427,107,480,90.7C533.3,75,587,85,640,112C693.3,139,747,181,800,202.7C853.3,224,907,224,960,202.7C1013.3,181,1067,139,1120,144C1173.3,149,1227,203,1280,197.3C1333.3,192,1387,128,1413,96L1440,64L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+      </section>
+
+      <section id="companies" class="companies pb-5">
+        <div class="container">
+          <div class="row text-center">
+            <h3 class="mb-4">
+              Trusted by companies like
+            </h3>
+            <div class="heading-line mb-5"></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-lg-2">
+              <div class="logo-box shadow-sm">
+                <img src="images/companies/microsoft_logo.png" alt="company 1 logo" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+              <div class="logo-box shadow-sm">
+                <img src="images/companies/google_logo.png" alt="company 2 logo" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+              <div class="logo-box shadow-sm">
+                <img src="images/companies/walmart_logo.png" alt="company 3 logo" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+              <div class="logo-box shadow-sm">
+                <img src="images/companies/airbnb_logo.png" alt="company 4 logo" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+              <div class="logo-box shadow-sm">
+                <img src="images/companies/amazon_logo.png" alt="company 5 logo" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-4 col-lg-2">
+              <div class="logo-box shadow-sm">
+                <img src="images/companies/cnn_logo.png" alt="company 6 logo" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <div class="container">
+          <div class="row">
+            <h2 class="display-4">
+              Our Services
+            </h2>
+            <div class="heading-line mb-4"></div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-6 border-right">
+              <h3 class="p-3">
+                Our services range from initial design to deployment anywhere anytime.
+              </h3>
+            </div>
+            <div class="col-md-6">
+              <p class="p-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum quam laboriosam magni! Vero dolor molestiae laboriosam perferendis architecto officiis exercitationem dolorem amet voluptatem. Ducimus quam eaque consequatur architecto quo?</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="services-content col-md-6 mt-4">
+              <i class="fas fa-paper-plane"></i>
+              <h3 class="mt-1 text-start">
+                Marketing
+              </h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quo officiis deleniti ducimus nostrum quae numquam nulla pariatur voluptatibus quia. Aperiam aspernatur reiciendis facere aliquid, eligendi omnis ducimus quibusdam? Delectus vel eum culpa vero deleniti perspiciatis iusto asperiores optio quam?</p>
+              <button type="button" class="rounded-pill btn-rounded border-primary">Learn More
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </div>
+            <div class="services-pic col-md-6 mt-4 text-end">
+              <img src="images/marketing.png" alt="marketing illustration" class="img-fluid">
+            </div>
+          </div>
+          
+          <div class="row flex-row-reverse align-items-center">
+            <div class="services-content col-md-6 mt-4">
+              <i class="fas fa-code"></i>
+              <h3 class="mt-1 text-start">
+                Web Development
+              </h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quo officiis deleniti ducimus nostrum quae numquam nulla pariatur voluptatibus quia. Aperiam aspernatur reiciendis facere aliquid, eligendi omnis ducimus quibusdam? Delectus vel eum culpa vero deleniti perspiciatis iusto asperiores optio quam?</p>
+              <button type="button" class="rounded-pill btn-rounded border-primary">Learn More
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </div>
+            <div class="services-pic col-md-6 mt-4 text-start">
+              <img src="images/web_development.png" alt="marketing illustration" class="img-fluid">
+            </div>
+          </div>
+
+          <div class="row align-items-center">
+            <div class="services-content col-md-6 mt-4">
+              <i class="fas fa-cloud-upload-alt"></i>
+              <h3 class="mt-1 text-start">
+                Cloud Hosting
+              </h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores quo officiis deleniti ducimus nostrum quae numquam nulla pariatur voluptatibus quia. Aperiam aspernatur reiciendis facere aliquid, eligendi omnis ducimus quibusdam? Delectus vel eum culpa vero deleniti perspiciatis iusto asperiores optio quam?</p>
+              <button type="button" class="rounded-pill btn-rounded border-primary">Learn More
+                <span><i class="fas fa-arrow-right"></i></span>
+              </button>
+            </div>
+            <div class="services-pic col-md-6 mt-4 text-end">
+              <img src="images/cloud_hosting.png" alt="marketing illustration" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
