@@ -11889,4 +11889,37 @@ hr.head-rule {
   -webkit-transition-property: all;
   transition-property: all;
 }
+
+.cta-info {
+  padding: 3rem;
+}
+
+.cta-info ul {
+  padding-left: 0;
+}
+
+.cta-info li {
+  list-style-type: none;
+  padding-left: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.cta-info li i {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.start-form {
+  padding: 4rem 3rem;
+}
+
+.start-form button {
+  border: none;
+  color: #fff;
+  padding: .5rem 2.5rem !important;
+}
+
+.start-form button a {
+  text-transform: capitalize;
+}
 /*# sourceMappingURL=main.css.map */

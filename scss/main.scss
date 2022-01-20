@@ -366,3 +366,38 @@ p.lead {
             }
         }
     }
+
+    // GET STARTED CTA PROMOTION & FORM STYLES
+
+    .cta-info {
+        padding: 3rem;
+
+        & ul {
+            padding-left: 0;
+        }
+
+        & li {
+            list-style-type: none;
+            padding-left: 0.5rem;
+            margin-bottom: 0.7rem;
+
+            i {
+                margin-right: 0.5rem;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .start-form {
+        padding: 4rem 3rem;
+
+        button {
+            border: none;
+            color: $white;
+            padding: .5rem 2.5rem !important;
+
+            a {
+                text-transform: capitalize;
+            }
+        }
+    }
